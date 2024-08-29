@@ -1,0 +1,70 @@
+.info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #e2e2e2, #f7f9fc); /* 부드러운 그라데이션 배경 */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1a1a2e; 
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1em;
+    color: #ff0000;
+    margin-bottom: 30px;
+}
+
+.info hr {
+
+    height: 5px;
+    background: linear-gradient(to right, red, blue);
+    margin-bottom: 20px;
+}
+
+.nation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nation-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nation-card:hover {
+    transform: translateY(-5px);
+}
+
+.nation-card h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.nation-card p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+.nation-card strong {
+    color: #1a1a2e;
+}
+
+.south-korea {
+    background-image: "public/flag/korea.png";
+}

@@ -1,18 +1,17 @@
-/* props: 상위 컴포넌트에서 하위컴포넌트로 파라미터를 전달하는 것.
-   Home -> Prop name, age    
-*/
+import React from 'react';
+import './Home.css';
 
-
-
-import React from 'react'
-const Home = () => {
+const Home = ({ name, age }) => {
     return (
         <div className='home'>
-            <div>
-                <h2>Home.jsx</h2>
+            <div className='home-card'>
+                <h2>Welcome to My React-site</h2>
+                <p>My name is Seung-Hun Lee<span className='highlight'>{name}</span>.</p>
+                <p>I am <span className='highlight'>{24}</span> years old.</p>
+                <p>I'm a university student interested in cybersecurity.</p>
             </div>
         </div>
     );
 }
 
-export default Home
+export default Home;

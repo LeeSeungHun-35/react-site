@@ -4,13 +4,15 @@
 
 .header {
   text-align: center;
-  background-color: #ff6347;
+  background-color: #1a1a2e ;
   height: 50px;
 }
 
 .header a {
   margin: 10px;
   font-size: 20px;
+  color: #e0e0e0 ;
+  text-decoration: none;
 }
 
 .home {

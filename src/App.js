@@ -1,10 +1,10 @@
 import './App.css';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import Home from '../src/pages/home/Home';
+import Home from './pages/home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Info from './pages/info/Info';
-import State from './State';
+import State from './pages/state/State';
 
 
 
