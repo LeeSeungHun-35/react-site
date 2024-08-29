@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: #ff6347;
+  height: 50px;
+}
+
+.header a {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.home {
+  background-color: dodgerblue;
+  height: 1000px;
+}
+
+.info {
+  background-color: grey;
+  height: 1000px;
+  color: white;
+}
+
+.footer {
+  background-color: gray;
+}
+
+.state {
+  background-color: rgb(101, 101, 255);
+}
