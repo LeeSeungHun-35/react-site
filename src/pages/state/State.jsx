@@ -28,13 +28,15 @@ const State = () => {
 
                 <hr />
 
-                <input 
-                    type='text' 
-                    onChange={textInput} 
-                    name='param2' 
-                    placeholder='여기에 입력하세요' 
+                <input
+                    type='text'
+                    onChange={textInput}
+                    name='param2'
+                    placeholder='여기에 입력하세요'
                 />
                 <p>입력값: {param2}</p>
+
+                
             </div>
         </div>
     );

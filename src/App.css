@@ -4,8 +4,9 @@
 
 .header {
   text-align: center;
+  align-items: center; 
   background-color: #1a1a2e ;
-  height: 50px;
+  height: 40px;
 }
 
 .header a {
