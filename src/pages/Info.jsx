@@ -38,6 +38,19 @@ const nations = [
         population: 1425000000 ,
         capital: "뉴델리",
         language: "힌디어, 영어",
+    },
+    {
+        name: "일본",
+        population: 124040000 ,
+        capital: "도쿄",
+        language: "일본어",
+    }
+    ,
+    {
+        name: "러시아",
+        population: 143200000 ,
+        capital: "모스크바",
+        language: "	러시아어",
     }
 ];
 const Info = () => {
