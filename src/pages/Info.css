@@ -1,10 +1,10 @@
-
 .info {
-    
+    background-image: url("../img/world-map.jpg");
+    background-size: cover;
+    background-position: center;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(to bottom right, #e2e2e2, #f7f9fc); 
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #333;
@@ -66,6 +66,9 @@
     color: #1a1a2e;
 }
 
-.south-korea {
-    background-image: "public/flag/korea.png";
+.nation-flag {
+    width: 50px; /* 조절 가능한 크기 */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
 }
