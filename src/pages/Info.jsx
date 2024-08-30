@@ -1,6 +1,7 @@
 import React from 'react';
 import './Info.css';
 
+
 const nations = [
     {
         name: "대한민국",
