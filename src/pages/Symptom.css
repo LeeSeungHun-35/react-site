@@ -1,5 +1,6 @@
 /* 전체 페이지를 위한 기본 설정 */
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
   width: 100%;
@@ -16,7 +17,7 @@ html, body {
 .symptom-container {
   display: flex;
   flex-direction: column;
-  height: calc(100% - 100px); 
+  height: calc(100% - 100px);
 }
 
 .symptom {
@@ -27,12 +28,13 @@ html, body {
   padding: 20px;
   box-sizing: border-box;
   background-image: url("../img/electrocardiogram.png");
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.sym1, .disease-list {
+.sym1,
+.disease-list {
   flex: 1;
   margin: 0 10px;
   padding: 20px;
@@ -46,7 +48,7 @@ html, body {
 
 .sym1 {
   max-width: 100%;
-  
+
 }
 
 .disease-list {
@@ -67,13 +69,13 @@ html, body {
 }
 
 .checkbox-label input[type="checkbox"] {
-  accent-color: #007bff; 
+  accent-color: #007bff;
   margin-right: 10px;
   cursor: pointer;
 }
 
 .checkbox-text {
-  color: #333;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -91,9 +93,8 @@ html, body {
 
 .disease-list li {
   padding: 8px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #070707;
   color: #000000;
-  font-style: initial;
   font-size: 16px;
 }
 
@@ -102,6 +103,6 @@ html, body {
 }
 
 .disease-list li.empty {
-  color: #ff0000;
-  font-style: italic;
+  color: #1a00ac;
+  font-style:inherit;
 }
