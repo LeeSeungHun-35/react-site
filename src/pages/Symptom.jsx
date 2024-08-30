@@ -40,7 +40,7 @@ const Symptom = () => {
     return (
         <div className='symptom'>
             <div className='sym1'>
-                <h2>증상 기반</h2>
+                <h2>증상 기반 (일상)</h2>
                 <form>
                     <div className='checkbox-group'>
                         {symptoms.map((symptom) => (
@@ -66,7 +66,7 @@ const Symptom = () => {
                             <li key={index}>{disease}</li>
                         ))
                     ) : (
-                        <li>선택된 증상에 대한 병명이 없습니다.</li>
+                        <li className='empty'>선택된 증상에 대한 병명이 없습니다.</li>
                     )}
                 </ul>
             </div>

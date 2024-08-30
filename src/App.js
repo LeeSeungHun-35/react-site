@@ -3,9 +3,9 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Info from './pages/Info';       // Info.jsx의 경로
-import State from './pages/State';    // State.jsx의 경로
-import Symptom from './pages/Symptom'; // Symptom.jsx의 경로
+import Info from './pages/Info';       
+import State from './pages/State';   
+import Symptom from './pages/Symptom'; 
 
 function App() {
     return (
