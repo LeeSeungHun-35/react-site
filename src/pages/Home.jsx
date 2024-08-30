@@ -10,8 +10,6 @@ const Home = ({ name, age }) => {
                 <p>I am <span className='highlight'>{24}</span> years old.</p>
                 <p>I'm a university student interested in cybersecurity and Development.</p>
             </div>
-
-            
         </div>
     );
 }

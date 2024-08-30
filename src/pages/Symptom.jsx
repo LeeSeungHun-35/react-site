@@ -13,23 +13,22 @@ const Symptom = () => {
         );
     };
 
-    const symptoms = [
-        { value: 'fever', label: '열' },
-        { value: 'cough', label: '콧물' },
-        { value: 'headache', label: '두통' },
-        { value: 'fatigue', label: '피로' },
-        { value: 'nausea', label: '메스꺼움' },
-        { value: 'chills', label: '오한' }
-    ];
+    const symptoms = [      { value: 'fever', label: '열' },
+                            { value: 'cough', label: '콧물' },
+                            { value: 'headache', label: '두통' },
+                            { value: 'fatigue', label: '피로' },
+                            { value: 'nausea', label: '메스꺼움' },
+                            { value: 'chills', label: '오한' }
+                     ];
 
-    const diseaseMapping = {
-        fever: ['감기', '독감'],
-        cough: ['감기', '기관지염'],
-        headache: ['편두통', '긴장성 두통'],
-        fatigue: ['빈혈', '만성 피로 증후군'],
-        nausea: ['위염', '위장 장애'],
-        chills: ['독감', '감기']
-    };
+    const diseaseMapping =  {
+                            fever: ['감기', '독감'],
+                            cough: ['감기', '기관지염'],
+                            headache: ['편두통', '긴장성 두통'],
+                            fatigue: ['빈혈', '만성 피로 증후군'],
+                            nausea: ['위염', '위장 장애'],
+                            chills: ['독감', '감기']
+                            };
 
     const relatedDiseases = Array.from(
         new Set(
