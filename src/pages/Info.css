@@ -1,8 +1,10 @@
+
 .info {
+    
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(to bottom right, #e2e2e2, #f7f9fc); /* 부드러운 그라데이션 배경 */
+    background: linear-gradient(to bottom right, #e2e2e2, #f7f9fc); 
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #333;
