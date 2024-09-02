@@ -30,7 +30,7 @@ const Symptom = () => {
     ];
 
     const diseaseMapping = {
-                        fever: ['감기', '독감', '위장염'],
+                        fever: ['감기', '독감'],
                         cough: ['감기', '기관지염', '천식'],
                         headache: ['편두통', '긴장성 두통', '알레르기'],
                         fatigue: ['빈혈', '만성 피로 증후군', '간염'],
@@ -68,6 +68,7 @@ const Symptom = () => {
     }, [selectedSymptoms]);
 
     return (
+
         <div className='symptom'>
             <div className='sym1'>
                 <h2>증상 기반 (일상)</h2>
@@ -96,7 +97,7 @@ const Symptom = () => {
                             <li key={index}>{disease}</li>
                         ))
                     ) : (
-                        <li className='empty'>선택된 증상과 관련된 병명들을 모아줍니다.</li>
+                        <li className='empty'>증상을 선택해주세요.<br/>선택된 증상과 관련된 병명들을 보여줍니다.</li>
                     )}
                 </ul>
             </div>
