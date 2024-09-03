@@ -11,9 +11,10 @@ const Header = () => {
                 <Link to="/Info">Info</Link>
                 <Link to="/State">State</Link>
                 <Link to="/Symptom">Symptom</Link>
+                <Link to="/Etc">Etc</Link>
             </div>
         </div>
     )
 }
- 
+
 export default Header
