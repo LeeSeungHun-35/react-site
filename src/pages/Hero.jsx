@@ -55,7 +55,7 @@ const Etc = () => {
         </ul>
       </div>
       <div className='contents'>
-        <h2>독립운동가 업적</h2>
+        <h2>독립운동가 및 업적</h2>
         <hr />
         <h3 className='fun'>map() 함수 사용 연습</h3>
         <br />
