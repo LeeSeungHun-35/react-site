@@ -1,7 +1,5 @@
 import React from 'react';
-import './Etc.css'
-
-
+import './Hero.css';
 
 const heroes = [
   { name: '세종대왕', achievement: '한글 창제' },
@@ -16,15 +14,21 @@ const heroes = [
   { name: '신사임당', achievement: '여성 교육' }
 ];
 
-
-
 const Etc = () => {
   return (
-    <div className='Etc'>
+    <div className='per'>
       <div className='contents'>
-        새로운 페이지
+        <h2>위인 목록</h2>
+        <hr />
+        {heroes.map((hero, index) => (
+          <div key={index} className="hero-card">
+            <h3>{hero.name}</h3>
+            <p><strong>업적:</strong> {hero.achievement}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
-}
+};
+
 export default Etc;
