@@ -65,12 +65,12 @@ const Etc = () => {
             <p><strong>업적:</strong> {hero.achievement}</p>
           </div>
         ))}
-        <h5>한국을 빛낸 독립운동가들</h5>
+        <h5>독립운동가</h5>
       </div>
 
       <div className='image-area'>
         <div className='test'>
-          사진 영역
+          
         </div>
       </div>
     </div>
