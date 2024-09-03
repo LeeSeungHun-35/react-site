@@ -20,6 +20,7 @@ const Etc = () => {
       <div className='contents'>
         <h2>위인 목록</h2>
         <hr />
+        <h5>한국을 빛낸 100명의 위인들 1절 기준 선정</h5>
         {heroes.map((hero, index) => (
           <div key={index} className="hero-card">
             <h3>{hero.name}</h3>
